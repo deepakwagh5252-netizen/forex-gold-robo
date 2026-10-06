@@ -1,0 +1,1011 @@
+{
+  "metadata": {
+    "phase": "7G-D",
+    "datasetBars": 12000,
+    "partitions": {
+      "train": {
+        "bars": 6000,
+        "start": "2026-05-26 15:00:00",
+        "end": "2026-07-28 02:45:00"
+      },
+      "calib": {
+        "bars": 2400,
+        "start": "2026-07-28 03:00:00",
+        "end": "2026-08-22 02:45:00"
+      },
+      "oos": {
+        "bars": 3600,
+        "start": "2026-08-22 03:00:00",
+        "end": "2026-09-28 14:45:00"
+      }
+    }
+  },
+  "overall": {
+    "baseline": {
+      "trades": 137,
+      "wins": 48,
+      "losses": 89,
+      "winRate": 35.04,
+      "wilsonCI": [
+        27.55,
+        43.33
+      ],
+      "grossProfit": 97253.94,
+      "grossLoss": 93975.16,
+      "netPnL": 3278.78,
+      "profitFactor": 1.03,
+      "avgWin": 2026.12,
+      "avgLoss": 1055.9,
+      "expectancy": 23.93,
+      "pnlStdDev": 1477.39,
+      "pnlStdError": 126.22,
+      "tStat": 0.19,
+      "maxDrawdownAmount": 11979.83,
+      "maxDrawdownPercent": 10.39,
+      "maxConsecutiveLosses": 8,
+      "endingBalance": 103278.78
+    },
+    "filterA": {
+      "trades": 95,
+      "wins": 39,
+      "losses": 56,
+      "winRate": 41.05,
+      "wilsonCI": [
+        31.7,
+        51.1
+      ],
+      "grossProfit": 85448.48,
+      "grossLoss": 64114.26,
+      "netPnL": 21334.22,
+      "profitFactor": 1.33,
+      "avgWin": 2190.99,
+      "avgLoss": 1144.9,
+      "expectancy": 224.57,
+      "pnlStdDev": 1654.86,
+      "pnlStdError": 169.78,
+      "tStat": 1.32,
+      "maxDrawdownAmount": 9042.42,
+      "maxDrawdownPercent": 7.18,
+      "maxConsecutiveLosses": 7,
+      "endingBalance": 121334.22
+    },
+    "filterB": {
+      "trades": 120,
+      "wins": 46,
+      "losses": 74,
+      "winRate": 38.33,
+      "wilsonCI": [
+        30.12,
+        47.27
+      ],
+      "grossProfit": 94803.81,
+      "grossLoss": 79144.13,
+      "netPnL": 15659.68,
+      "profitFactor": 1.2,
+      "avgWin": 2060.95,
+      "avgLoss": 1069.52,
+      "expectancy": 130.5,
+      "pnlStdDev": 1531.03,
+      "pnlStdError": 139.76,
+      "tStat": 0.93,
+      "maxDrawdownAmount": 9185.76,
+      "maxDrawdownPercent": 8.94,
+      "maxConsecutiveLosses": 8,
+      "endingBalance": 115659.68
+    },
+    "filterAB": {
+      "trades": 70,
+      "wins": 31,
+      "losses": 39,
+      "winRate": 44.29,
+      "wilsonCI": [
+        33.25,
+        55.92
+      ],
+      "grossProfit": 66484.46,
+      "grossLoss": 43172.42,
+      "netPnL": 23312.04,
+      "profitFactor": 1.54,
+      "avgWin": 2144.66,
+      "avgLoss": 1106.99,
+      "expectancy": 333.03,
+      "pnlStdDev": 1631.74,
+      "pnlStdError": 195.03,
+      "tStat": 1.71,
+      "maxDrawdownAmount": 9150.21,
+      "maxDrawdownPercent": 8.8,
+      "maxConsecutiveLosses": 9,
+      "endingBalance": 123312.04
+    }
+  },
+  "train": {
+    "baseline": {
+      "trades": 76,
+      "wins": 28,
+      "losses": 48,
+      "winRate": 36.84,
+      "wilsonCI": [
+        26.88,
+        48.07
+      ],
+      "grossProfit": 54906.33,
+      "grossLoss": 48843.84,
+      "netPnL": 6062.49,
+      "profitFactor": 1.12,
+      "avgWin": 1960.94,
+      "avgLoss": 1017.58,
+      "expectancy": 79.77,
+      "pnlStdDev": 1446.82,
+      "pnlStdError": 165.96,
+      "tStat": 0.48,
+      "maxDrawdownAmount": 10364.13,
+      "maxDrawdownPercent": 9.99,
+      "maxConsecutiveLosses": 8,
+      "endingBalance": 106062.49
+    },
+    "filterA": {
+      "trades": 41,
+      "wins": 17,
+      "losses": 24,
+      "winRate": 41.46,
+      "wilsonCI": [
+        27.76,
+        56.63
+      ],
+      "grossProfit": 34388.52,
+      "grossLoss": 25146.14,
+      "netPnL": 9242.38,
+      "profitFactor": 1.37,
+      "avgWin": 2022.85,
+      "avgLoss": 1047.76,
+      "expectancy": 225.42,
+      "pnlStdDev": 1532.54,
+      "pnlStdError": 239.34,
+      "tStat": 0.94,
+      "maxDrawdownAmount": 6330.21,
+      "maxDrawdownPercent": 6.09,
+      "maxConsecutiveLosses": 4,
+      "endingBalance": 109242.38
+    },
+    "filterB": {
+      "trades": 59,
+      "wins": 22,
+      "losses": 37,
+      "winRate": 37.29,
+      "wilsonCI": [
+        26.08,
+        50.05
+      ],
+      "grossProfit": 43057.86,
+      "grossLoss": 37575.91,
+      "netPnL": 5481.95,
+      "profitFactor": 1.15,
+      "avgWin": 1957.18,
+      "avgLoss": 1015.57,
+      "expectancy": 92.91,
+      "pnlStdDev": 1450.34,
+      "pnlStdError": 188.82,
+      "tStat": 0.49,
+      "maxDrawdownAmount": 9185.76,
+      "maxDrawdownPercent": 8.94,
+      "maxConsecutiveLosses": 8,
+      "endingBalance": 105481.95
+    },
+    "filterAB": {
+      "trades": 32,
+      "wins": 13,
+      "losses": 19,
+      "winRate": 40.63,
+      "wilsonCI": [
+        25.52,
+        57.74
+      ],
+      "grossProfit": 25835.6,
+      "grossLoss": 19556.36,
+      "netPnL": 6279.24,
+      "profitFactor": 1.32,
+      "avgWin": 1987.35,
+      "avgLoss": 1029.28,
+      "expectancy": 196.23,
+      "pnlStdDev": 1506.09,
+      "pnlStdError": 266.24,
+      "tStat": 0.74,
+      "maxDrawdownAmount": 9150.21,
+      "maxDrawdownPercent": 8.8,
+      "maxConsecutiveLosses": 9,
+      "endingBalance": 106279.24
+    }
+  },
+  "calibration": {
+    "baseline": {
+      "trades": 36,
+      "wins": 14,
+      "losses": 22,
+      "winRate": 38.89,
+      "wilsonCI": [
+        24.78,
+        55.14
+      ],
+      "grossProfit": 29773.22,
+      "grossLoss": 24404.69,
+      "netPnL": 5368.53,
+      "profitFactor": 1.22,
+      "avgWin": 2126.66,
+      "avgLoss": 1109.3,
+      "expectancy": 149.13,
+      "pnlStdDev": 1600.63,
+      "pnlStdError": 266.77,
+      "tStat": 0.56,
+      "maxDrawdownAmount": 9140.92,
+      "maxDrawdownPercent": 8.37,
+      "maxConsecutiveLosses": 5,
+      "endingBalance": 105368.53
+    },
+    "filterA": {
+      "trades": 24,
+      "wins": 13,
+      "losses": 11,
+      "winRate": 54.17,
+      "wilsonCI": [
+        35.07,
+        72.11
+      ],
+      "grossProfit": 29826.29,
+      "grossLoss": 13106.77,
+      "netPnL": 16719.52,
+      "profitFactor": 2.28,
+      "avgWin": 2294.33,
+      "avgLoss": 1191.52,
+      "expectancy": 696.65,
+      "pnlStdDev": 1776.31,
+      "pnlStdError": 362.59,
+      "tStat": 1.92,
+      "maxDrawdownAmount": 3754.47,
+      "maxDrawdownPercent": 3.28,
+      "maxConsecutiveLosses": 3,
+      "endingBalance": 116719.52
+    },
+    "filterB": {
+      "trades": 27,
+      "wins": 11,
+      "losses": 16,
+      "winRate": 40.74,
+      "wilsonCI": [
+        24.51,
+        59.27
+      ],
+      "grossProfit": 23123.89,
+      "grossLoss": 17497.78,
+      "netPnL": 5626.11,
+      "profitFactor": 1.32,
+      "avgWin": 2102.17,
+      "avgLoss": 1093.61,
+      "expectancy": 208.37,
+      "pnlStdDev": 1600.7,
+      "pnlStdError": 308.05,
+      "tStat": 0.68,
+      "maxDrawdownAmount": 5645.82,
+      "maxDrawdownPercent": 5.33,
+      "maxConsecutiveLosses": 4,
+      "endingBalance": 105626.11
+    },
+    "filterAB": {
+      "trades": 18,
+      "wins": 10,
+      "losses": 8,
+      "winRate": 55.56,
+      "wilsonCI": [
+        33.72,
+        75.44
+      ],
+      "grossProfit": 21896.19,
+      "grossLoss": 9037.97,
+      "netPnL": 12858.22,
+      "profitFactor": 2.42,
+      "avgWin": 2189.62,
+      "avgLoss": 1129.75,
+      "expectancy": 714.35,
+      "pnlStdDev": 1698.67,
+      "pnlStdError": 400.38,
+      "tStat": 1.78,
+      "maxDrawdownAmount": 2364.32,
+      "maxDrawdownPercent": 2.17,
+      "maxConsecutiveLosses": 2,
+      "endingBalance": 112858.22
+    }
+  },
+  "oos": {
+    "baseline": {
+      "trades": 25,
+      "wins": 6,
+      "losses": 19,
+      "winRate": 24,
+      "wilsonCI": [
+        11.5,
+        43.43
+      ],
+      "grossProfit": 12574.39,
+      "grossLoss": 20726.63,
+      "netPnL": -8152.24,
+      "profitFactor": 0.61,
+      "avgWin": 2095.73,
+      "avgLoss": 1090.88,
+      "expectancy": -326.09,
+      "pnlStdDev": 1389.15,
+      "pnlStdError": 277.83,
+      "tStat": -1.17,
+      "maxDrawdownAmount": 8152.24,
+      "maxDrawdownPercent": 8.15,
+      "maxConsecutiveLosses": 4,
+      "endingBalance": 91847.76
+    },
+    "filterA": {
+      "trades": 30,
+      "wins": 9,
+      "losses": 21,
+      "winRate": 30,
+      "wilsonCI": [
+        16.66,
+        47.88
+      ],
+      "grossProfit": 21233.67,
+      "grossLoss": 25861.35,
+      "netPnL": -4627.68,
+      "profitFactor": 0.82,
+      "avgWin": 2359.3,
+      "avgLoss": 1231.49,
+      "expectancy": -154.26,
+      "pnlStdDev": 1673.84,
+      "pnlStdError": 305.6,
+      "tStat": -0.5,
+      "maxDrawdownAmount": 9042.42,
+      "maxDrawdownPercent": 9.04,
+      "maxConsecutiveLosses": 7,
+      "endingBalance": 95372.32
+    },
+    "filterB": {
+      "trades": 34,
+      "wins": 13,
+      "losses": 21,
+      "winRate": 38.24,
+      "wilsonCI": [
+        23.9,
+        54.96
+      ],
+      "grossProfit": 28622.06,
+      "grossLoss": 24070.44,
+      "netPnL": 4551.62,
+      "profitFactor": 1.19,
+      "avgWin": 2201.7,
+      "avgLoss": 1146.21,
+      "expectancy": 133.87,
+      "pnlStdDev": 1652.13,
+      "pnlStdError": 283.34,
+      "tStat": 0.47,
+      "maxDrawdownAmount": 6050.78,
+      "maxDrawdownPercent": 5.58,
+      "maxConsecutiveLosses": 5,
+      "endingBalance": 104551.62
+    },
+    "filterAB": {
+      "trades": 20,
+      "wins": 8,
+      "losses": 12,
+      "winRate": 40,
+      "wilsonCI": [
+        21.88,
+        61.34
+      ],
+      "grossProfit": 18752.67,
+      "grossLoss": 14578.09,
+      "netPnL": 4174.58,
+      "profitFactor": 1.29,
+      "avgWin": 2344.08,
+      "avgLoss": 1214.84,
+      "expectancy": 208.73,
+      "pnlStdDev": 1789.19,
+      "pnlStdError": 400.08,
+      "tStat": 0.52,
+      "maxDrawdownAmount": 4784.96,
+      "maxDrawdownPercent": 4.78,
+      "maxConsecutiveLosses": 4,
+      "endingBalance": 104174.58
+    },
+    "deltas": {
+      "filterA": {
+        "model": "FILTER A",
+        "pnlDelta": 3524.56,
+        "pfDelta": 0.21,
+        "expDelta": 171.83,
+        "wrDelta": 6,
+        "maxDdDelta": 890.18,
+        "tradeCountDelta": 5
+      },
+      "filterB": {
+        "model": "FILTER B",
+        "pnlDelta": 12703.86,
+        "pfDelta": 0.58,
+        "expDelta": 459.96,
+        "wrDelta": 14.24,
+        "maxDdDelta": -2101.46,
+        "tradeCountDelta": 9
+      },
+      "filterAB": {
+        "model": "FILTER AB",
+        "pnlDelta": 12326.82,
+        "pfDelta": 0.68,
+        "expDelta": 534.82,
+        "wrDelta": 16,
+        "maxDdDelta": -3367.28,
+        "tradeCountDelta": -5
+      }
+    },
+    "interaction": {
+      "sumOosDeltaAB": 16228.42,
+      "actualOosDeltaAB": 12326.82,
+      "discrepancy": -3901.6000000000004
+    }
+  },
+  "tradeRemovalOnBaseline": {
+    "filterA": {
+      "trades": 53,
+      "wins": 14,
+      "losses": 39,
+      "winRate": 26.42,
+      "wilsonCI": [
+        16.44,
+        39.58
+      ],
+      "grossProfit": 27973.27,
+      "grossLoss": 40964.86,
+      "netPnL": -12991.59,
+      "profitFactor": 0.68,
+      "avgWin": 1998.09,
+      "avgLoss": 1050.38,
+      "expectancy": -245.12,
+      "pnlStdDev": 1358.31,
+      "pnlStdError": 186.58,
+      "tStat": -1.31,
+      "maxDrawdownAmount": 15474.91,
+      "maxDrawdownPercent": 15.25,
+      "maxConsecutiveLosses": 11,
+      "endingBalance": 87008.41
+    },
+    "filterB": {
+      "trades": 34,
+      "wins": 10,
+      "losses": 24,
+      "winRate": 29.41,
+      "wilsonCI": [
+        16.83,
+        46.17
+      ],
+      "grossProfit": 20263.08,
+      "grossLoss": 25453.64,
+      "netPnL": -5190.56,
+      "profitFactor": 0.8,
+      "avgWin": 2026.31,
+      "avgLoss": 1060.57,
+      "expectancy": -152.66,
+      "pnlStdDev": 1429.55,
+      "pnlStdError": 245.17,
+      "tStat": -0.62,
+      "maxDrawdownAmount": 10059.2,
+      "maxDrawdownPercent": 9.59,
+      "maxConsecutiveLosses": 7,
+      "endingBalance": 94809.44
+    },
+    "filterAB": {
+      "trades": 74,
+      "wins": 21,
+      "losses": 53,
+      "winRate": 28.38,
+      "wilsonCI": [
+        19.37,
+        39.52
+      ],
+      "grossProfit": 42239.44,
+      "grossLoss": 55958.18,
+      "netPnL": -13718.74,
+      "profitFactor": 0.75,
+      "avgWin": 2011.4,
+      "avgLoss": 1055.81,
+      "expectancy": -185.39,
+      "pnlStdDev": 1393.79,
+      "pnlStdError": 162.02,
+      "tStat": -1.14,
+      "maxDrawdownAmount": 17276.26,
+      "maxDrawdownPercent": 16.68,
+      "maxConsecutiveLosses": 12,
+      "endingBalance": 86281.26
+    },
+    "overlap": {
+      "aOnly": 40,
+      "bOnly": 21,
+      "both": 13,
+      "kept": 63
+    }
+  },
+  "oosRegimes": {
+    "baseline": {
+      "TRENDING_BULLISH": {
+        "trades": 8,
+        "wins": 2,
+        "losses": 6,
+        "winRate": 25,
+        "wilsonCI": [
+          7.15,
+          59.07
+        ],
+        "grossProfit": 4136.1,
+        "grossLoss": 6623.6,
+        "netPnL": -2487.5,
+        "profitFactor": 0.62,
+        "avgWin": 2068.05,
+        "avgLoss": 1103.93,
+        "expectancy": -310.94,
+        "pnlStdDev": 1468.39,
+        "pnlStdError": 519.15,
+        "tStat": -0.6,
+        "maxDrawdownAmount": 5525.24,
+        "maxDrawdownPercent": 5.53,
+        "maxConsecutiveLosses": 5,
+        "endingBalance": 97512.5
+      },
+      "TRENDING_BEARISH": {
+        "trades": 8,
+        "wins": 2,
+        "losses": 6,
+        "winRate": 25,
+        "wilsonCI": [
+          7.15,
+          59.07
+        ],
+        "grossProfit": 4246.82,
+        "grossLoss": 6543.02,
+        "netPnL": -2296.2,
+        "profitFactor": 0.65,
+        "avgWin": 2123.41,
+        "avgLoss": 1090.5,
+        "expectancy": -287.02,
+        "pnlStdDev": 1487.84,
+        "pnlStdError": 526.03,
+        "tStat": -0.55,
+        "maxDrawdownAmount": 4318.75,
+        "maxDrawdownPercent": 4.23,
+        "maxConsecutiveLosses": 4,
+        "endingBalance": 97703.8
+      },
+      "RANGING_CONSOLIDATION": {
+        "trades": 2,
+        "wins": 0,
+        "losses": 2,
+        "winRate": 0,
+        "wilsonCI": [
+          0,
+          65.76
+        ],
+        "grossProfit": 0,
+        "grossLoss": 2179.55,
+        "netPnL": -2179.55,
+        "profitFactor": 0,
+        "avgWin": 0,
+        "avgLoss": 1089.78,
+        "expectancy": -1089.78,
+        "pnlStdDev": 23.72,
+        "pnlStdError": 16.77,
+        "tStat": -64.96,
+        "maxDrawdownAmount": 2179.55,
+        "maxDrawdownPercent": 2.18,
+        "maxConsecutiveLosses": 2,
+        "endingBalance": 97820.45
+      },
+      "VOLATILITY_EXPANSION": {
+        "trades": 7,
+        "wins": 2,
+        "losses": 5,
+        "winRate": 28.57,
+        "wilsonCI": [
+          8.22,
+          64.11
+        ],
+        "grossProfit": 4191.47,
+        "grossLoss": 5380.46,
+        "netPnL": -1188.99,
+        "profitFactor": 0.78,
+        "avgWin": 2095.74,
+        "avgLoss": 1076.09,
+        "expectancy": -169.86,
+        "pnlStdDev": 1547.76,
+        "pnlStdError": 585,
+        "tStat": -0.29,
+        "maxDrawdownAmount": 2179.56,
+        "maxDrawdownPercent": 2.18,
+        "maxConsecutiveLosses": 2,
+        "endingBalance": 98811.01
+      }
+    },
+    "filterAB": {
+      "TRENDING_BULLISH": {
+        "trades": 9,
+        "wins": 4,
+        "losses": 5,
+        "winRate": 44.44,
+        "wilsonCI": [
+          18.88,
+          73.33
+        ],
+        "grossProfit": 9367.69,
+        "grossLoss": 6048.77,
+        "netPnL": 3318.92,
+        "profitFactor": 1.55,
+        "avgWin": 2341.92,
+        "avgLoss": 1209.75,
+        "expectancy": 368.77,
+        "pnlStdDev": 1872.47,
+        "pnlStdError": 624.16,
+        "tStat": 0.59,
+        "maxDrawdownAmount": 3592.84,
+        "maxDrawdownPercent": 3.59,
+        "maxConsecutiveLosses": 3,
+        "endingBalance": 103318.92
+      },
+      "VOLATILITY_EXPANSION": {
+        "trades": 9,
+        "wins": 4,
+        "losses": 5,
+        "winRate": 44.44,
+        "wilsonCI": [
+          18.88,
+          73.33
+        ],
+        "grossProfit": 9384.98,
+        "grossLoss": 6105.33,
+        "netPnL": 3279.65,
+        "profitFactor": 1.54,
+        "avgWin": 2346.24,
+        "avgLoss": 1221.07,
+        "expectancy": 364.41,
+        "pnlStdDev": 1880.43,
+        "pnlStdError": 626.81,
+        "tStat": 0.58,
+        "maxDrawdownAmount": 2517.38,
+        "maxDrawdownPercent": 2.43,
+        "maxConsecutiveLosses": 2,
+        "endingBalance": 103279.65
+      },
+      "TRENDING_BEARISH": {
+        "trades": 2,
+        "wins": 0,
+        "losses": 2,
+        "winRate": 0,
+        "wilsonCI": [
+          0,
+          65.76
+        ],
+        "grossProfit": 0,
+        "grossLoss": 2423.99,
+        "netPnL": -2423.99,
+        "profitFactor": 0,
+        "avgWin": 0,
+        "avgLoss": 1211.99,
+        "expectancy": -1211.99,
+        "pnlStdDev": 10.01,
+        "pnlStdError": 7.07,
+        "tStat": -171.31,
+        "maxDrawdownAmount": 2423.99,
+        "maxDrawdownPercent": 2.42,
+        "maxConsecutiveLosses": 2,
+        "endingBalance": 97576.01
+      }
+    }
+  },
+  "oosSessions": {
+    "baseline": {
+      "OTHER": {
+        "trades": 4,
+        "wins": 2,
+        "losses": 2,
+        "winRate": 50,
+        "wilsonCI": [
+          15,
+          85
+        ],
+        "grossProfit": 4168.78,
+        "grossLoss": 2244.44,
+        "netPnL": 1924.34,
+        "profitFactor": 1.86,
+        "avgWin": 2084.39,
+        "avgLoss": 1122.22,
+        "expectancy": 481.08,
+        "pnlStdDev": 1851.38,
+        "pnlStdError": 925.69,
+        "tStat": 0.52,
+        "maxDrawdownAmount": 2244.44,
+        "maxDrawdownPercent": 2.24,
+        "maxConsecutiveLosses": 2,
+        "endingBalance": 101924.34
+      },
+      "ASIAN": {
+        "trades": 8,
+        "wins": 1,
+        "losses": 7,
+        "winRate": 12.5,
+        "wilsonCI": [
+          2.24,
+          47.09
+        ],
+        "grossProfit": 2130,
+        "grossLoss": 7589.59,
+        "netPnL": -5459.59,
+        "profitFactor": 0.28,
+        "avgWin": 2130,
+        "avgLoss": 1084.23,
+        "expectancy": -682.45,
+        "pnlStdDev": 1136.49,
+        "pnlStdError": 401.81,
+        "tStat": -1.7,
+        "maxDrawdownAmount": 5459.59,
+        "maxDrawdownPercent": 5.46,
+        "maxConsecutiveLosses": 4,
+        "endingBalance": 94540.41
+      },
+      "NEW YORK": {
+        "trades": 6,
+        "wins": 1,
+        "losses": 5,
+        "winRate": 16.67,
+        "wilsonCI": [
+          3.01,
+          56.35
+        ],
+        "grossProfit": 2116.82,
+        "grossLoss": 5486.01,
+        "netPnL": -3369.19,
+        "profitFactor": 0.39,
+        "avgWin": 2116.82,
+        "avgLoss": 1097.2,
+        "expectancy": -561.53,
+        "pnlStdDev": 1312.16,
+        "pnlStdError": 535.69,
+        "tStat": -1.05,
+        "maxDrawdownAmount": 5486.01,
+        "maxDrawdownPercent": 5.37,
+        "maxConsecutiveLosses": 5,
+        "endingBalance": 96630.81
+      },
+      "LONDON/NEW YORK OVERLAP": {
+        "trades": 3,
+        "wins": 1,
+        "losses": 2,
+        "winRate": 33.33,
+        "wilsonCI": [
+          6.15,
+          79.23
+        ],
+        "grossProfit": 2065.57,
+        "grossLoss": 2182.53,
+        "netPnL": -116.96,
+        "profitFactor": 0.95,
+        "avgWin": 2065.57,
+        "avgLoss": 1091.27,
+        "expectancy": -38.99,
+        "pnlStdDev": 1822.63,
+        "pnlStdError": 1052.3,
+        "tStat": -0.04,
+        "maxDrawdownAmount": 1102.12,
+        "maxDrawdownPercent": 1.1,
+        "maxConsecutiveLosses": 1,
+        "endingBalance": 99883.04
+      },
+      "LONDON": {
+        "trades": 4,
+        "wins": 1,
+        "losses": 3,
+        "winRate": 25,
+        "wilsonCI": [
+          4.56,
+          69.94
+        ],
+        "grossProfit": 2093.22,
+        "grossLoss": 3224.06,
+        "netPnL": -1130.84,
+        "profitFactor": 0.65,
+        "avgWin": 2093.22,
+        "avgLoss": 1074.69,
+        "expectancy": -282.71,
+        "pnlStdDev": 1584.05,
+        "pnlStdError": 792.02,
+        "tStat": -0.36,
+        "maxDrawdownAmount": 2156.25,
+        "maxDrawdownPercent": 2.13,
+        "maxConsecutiveLosses": 2,
+        "endingBalance": 98869.16
+      }
+    },
+    "filterAB": {
+      "OTHER": {
+        "trades": 4,
+        "wins": 2,
+        "losses": 2,
+        "winRate": 50,
+        "wilsonCI": [
+          15,
+          85
+        ],
+        "grossProfit": 4602.51,
+        "grossLoss": 2456.81,
+        "netPnL": 2145.7,
+        "profitFactor": 1.87,
+        "avgWin": 2301.26,
+        "avgLoss": 1228.4,
+        "expectancy": 536.42,
+        "pnlStdDev": 2038.16,
+        "pnlStdError": 1019.08,
+        "tStat": 0.53,
+        "maxDrawdownAmount": 1248.52,
+        "maxDrawdownPercent": 1.21,
+        "maxConsecutiveLosses": 1,
+        "endingBalance": 102145.7
+      },
+      "LONDON/NEW YORK OVERLAP": {
+        "trades": 5,
+        "wins": 2,
+        "losses": 3,
+        "winRate": 40,
+        "wilsonCI": [
+          11.76,
+          76.93
+        ],
+        "grossProfit": 4721.4,
+        "grossLoss": 3665.9,
+        "netPnL": 1055.5,
+        "profitFactor": 1.29,
+        "avgWin": 2360.7,
+        "avgLoss": 1221.97,
+        "expectancy": 211.1,
+        "pnlStdDev": 1962.94,
+        "pnlStdError": 877.85,
+        "tStat": 0.24,
+        "maxDrawdownAmount": 1268.86,
+        "maxDrawdownPercent": 1.24,
+        "maxConsecutiveLosses": 1,
+        "endingBalance": 101055.5
+      },
+      "NEW YORK": {
+        "trades": 5,
+        "wins": 1,
+        "losses": 4,
+        "winRate": 20,
+        "wilsonCI": [
+          3.62,
+          62.45
+        ],
+        "grossProfit": 2338.7,
+        "grossLoss": 4795.51,
+        "netPnL": -2456.81,
+        "profitFactor": 0.49,
+        "avgWin": 2338.7,
+        "avgLoss": 1198.88,
+        "expectancy": -491.36,
+        "pnlStdDev": 1582.1,
+        "pnlStdError": 707.53,
+        "tStat": -0.69,
+        "maxDrawdownAmount": 4795.51,
+        "maxDrawdownPercent": 4.8,
+        "maxConsecutiveLosses": 4,
+        "endingBalance": 97543.19
+      },
+      "LONDON": {
+        "trades": 6,
+        "wins": 3,
+        "losses": 3,
+        "winRate": 50,
+        "wilsonCI": [
+          18.76,
+          81.24
+        ],
+        "grossProfit": 7090.06,
+        "grossLoss": 3659.87,
+        "netPnL": 3430.19,
+        "profitFactor": 1.94,
+        "avgWin": 2363.35,
+        "avgLoss": 1219.96,
+        "expectancy": 571.7,
+        "pnlStdDev": 1962.92,
+        "pnlStdError": 801.36,
+        "tStat": 0.71,
+        "maxDrawdownAmount": 2416.36,
+        "maxDrawdownPercent": 2.36,
+        "maxConsecutiveLosses": 2,
+        "endingBalance": 103430.19
+      }
+    }
+  },
+  "friction": {
+    "baseline": {
+      "scenarios": {
+        "1x": {
+          "pnl": 3278.78,
+          "pf": 1.03
+        },
+        "1.5x": {
+          "pnl": 1429.28,
+          "pf": 1.01
+        },
+        "2x": {
+          "pnl": -420.22,
+          "pf": 1
+        },
+        "3x": {
+          "pnl": -4119.22,
+          "pf": 0.96
+        }
+      },
+      "breakEven": 1.89
+    },
+    "filterA": {
+      "scenarios": {
+        "1x": {
+          "pnl": 21334.22,
+          "pf": 1.33
+        },
+        "1.5x": {
+          "pnl": 20051.72,
+          "pf": 1.31
+        },
+        "2x": {
+          "pnl": 18769.22,
+          "pf": 1.28
+        },
+        "3x": {
+          "pnl": 16204.22,
+          "pf": 1.23
+        }
+      },
+      "breakEven": 9.32
+    },
+    "filterB": {
+      "scenarios": {
+        "1x": {
+          "pnl": 15659.68,
+          "pf": 1.2
+        },
+        "1.5x": {
+          "pnl": 14039.68,
+          "pf": 1.17
+        },
+        "2x": {
+          "pnl": 12419.68,
+          "pf": 1.15
+        },
+        "3x": {
+          "pnl": 9179.68,
+          "pf": 1.11
+        }
+      },
+      "breakEven": 5.83
+    },
+    "filterAB": {
+      "scenarios": {
+        "1x": {
+          "pnl": 23312.04,
+          "pf": 1.54
+        },
+        "1.5x": {
+          "pnl": 22367.04,
+          "pf": 1.51
+        },
+        "2x": {
+          "pnl": 21422.04,
+          "pf": 1.48
+        },
+        "3x": {
+          "pnl": 19532.04,
+          "pf": 1.42
+        }
+      },
+      "breakEven": 13.33
+    }
+  }
+}

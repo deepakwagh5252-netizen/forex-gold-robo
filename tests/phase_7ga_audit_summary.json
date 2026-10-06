@@ -1,0 +1,83 @@
+{
+  "frictionAudit": {
+    "diagnosis": "INVALID_STRESS_TEST_SCRIPT_DUE_TO_UNIT_CONFUSION",
+    "rootCause": "posSize (ounces) was multiplied by $10 per-lot pip value and $7 per-lot commission without dividing by 100 contract specification, inflating friction costs by 100x",
+    "reported": {
+      "1.0x": 3278.78,
+      "1.5x": -121368.43,
+      "2.0x": -246015.68,
+      "3.0x": -495310.05
+    },
+    "recalculated": {
+      "1.0x": 3278.78,
+      "1.5x": 1429.28,
+      "2.0x": -420.22,
+      "3.0x": -4119.22
+    }
+  },
+  "edgeDecomposition": {
+    "primaryPositiveDrivers": [
+      {
+        "condition": "TRENDING_BULLISH regime",
+        "trades": 50,
+        "pnl": 12830.85,
+        "pf": 1.42
+      },
+      {
+        "condition": "VOLATILITY_EXPANSION regime",
+        "trades": 22,
+        "pnl": 7364.37,
+        "pf": 1.58
+      },
+      {
+        "condition": "LONG direction",
+        "trades": 64,
+        "pnl": 3823.19,
+        "pf": 1.09
+      },
+      {
+        "condition": "LONDON / NY OVERLAP session",
+        "trades": 26,
+        "pnl": 3006.81,
+        "pf": 1.18
+      },
+      {
+        "condition": "Block 2 (Mid-summer gold bull trend)",
+        "trades": 53,
+        "pnl": 8777.07,
+        "pf": 1.26
+      }
+    ],
+    "primaryNegativeDrivers": [
+      {
+        "condition": "TRENDING_BEARISH regime",
+        "trades": 57,
+        "pnl": -17443.14,
+        "pf": 0.61
+      },
+      {
+        "condition": "ASIAN session",
+        "trades": 34,
+        "pnl": -5190.56,
+        "pf": 0.8
+      },
+      {
+        "condition": "Block 3 (Choppy September distribution)",
+        "trades": 32,
+        "pnl": -6172.1,
+        "pf": 0.75
+      },
+      {
+        "condition": "SHORT direction",
+        "trades": 73,
+        "pnl": -544.41,
+        "pf": 0.99
+      }
+    ]
+  },
+  "riskCheck": {
+    "maxDrawdownReported": "10.39%",
+    "threshold": "10.0%",
+    "explanation": "Peak equity reached $115,250 during Block 2. During the subsequent drawdown, when equity reached ~$103,700, the last open trade hit stop-loss with slippage, settling equity at $103,278 (-10.39% from peak). Drawdown protection does not prematurely truncate an open in-flight trade mid-candle; once closed at 10.39%, subsequent orders are blocked by BLOCKED_MAX_DRAWDOWN."
+  }
+}

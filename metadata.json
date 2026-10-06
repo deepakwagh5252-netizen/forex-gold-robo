@@ -1,0 +1,6 @@
+{
+  "name": "FOREX & GOLD ROBO",
+  "description": "Personal research and paper-trading terminal for Forex and Gold assets with strict data verification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "react-example",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx server.ts",
+    "build": "vite build && esbuild server.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=dist/server.cjs",
+    "start": "node dist/server.cjs",
+    "preview": "vite preview",
+    "clean": "rm -rf dist server.js",
+    "lint": "tsc --noEmit",
+    "test": "tsx tests/intelligence-engine.test.ts && tsx tests/twelve-data-stability.test.ts && tsx tests/active-watchlist.test.ts && tsx tests/phase-4b-friction-integrity.test.ts && tsx tests/phase-5-chart-integrity.test.ts && tsx tests/phase-6-replay-engine.test.ts && tsx tests/phase-7a-signal-regime.test.ts && tsx tests/phase-7b-strategy-validation.test.ts && tsx tests/phase-7c-strategy-validation.test.ts && tsx tests/phase-7d-large-scale-validation.test.ts && tsx tests/phase-7e-robustness-discovery.test.ts && tsx tests/phase-8-forward-validation.test.ts && tsx tests/filter-ab-harmonization.test.ts && tsx tests/commission-harmonization.test.ts && tsx tests/step3-accounting-harmonization.test.ts && tsx tests/step4-deterministic-ids.test.ts && tsx tests/step5-golden-equivalence.test.ts && tsx tests/step6e-idempotency-identity.test.ts && tsx tests/forward-partition-reporting.test.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^2.4.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.1",
+    "lucide-react": "^0.546.0",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "vite": "^8.3.0",
+    "express": "^4.21.2",
+    "dotenv": "^17.2.3",
+    "motion": "^12.23.24"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "autoprefixer": "^10.4.21",
+    "esbuild": "^0.25.0",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.21.0",
+    "typescript": "^7.0.2",
+    "@types/express": "^4.17.21"
+  }
+}
